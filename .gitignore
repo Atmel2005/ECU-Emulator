@@ -1,0 +1,5 @@
+# Publish only build/ and README
+*
+!.gitignore
+!README.md
+!build/
