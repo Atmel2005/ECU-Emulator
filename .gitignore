@@ -1,7 +1,24 @@
-# Publish only build/ and README
-*
-!.gitignore
-!README.md
+# Publish site artifacts and docs; ignore editor cruft
+
+# keep build outputs tracked
 !build/
 !build/**
+
+# keep docs and images
+!README.md
+!README_EN.md
+!README_DE.md
+!LICENSE
 !RP2040_ZERO_emule.jpg
+
+# ignore common junk
+.DS_Store
+.vscode/
+*.swp
+*.swo
+*.log
+*.elf
+*.map
+*.hex
+*.uf2
+*.bin
